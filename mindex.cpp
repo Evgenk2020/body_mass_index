@@ -103,5 +103,3 @@ int _explain::explain(float bodindex, const float base[MAX_GEND_INDEX][MAX_AGE_I
 
 std::string _interprit::index(int index) {return Human_Results_Name[index];}
 //================================================================================
-
-//*****************************************************************
