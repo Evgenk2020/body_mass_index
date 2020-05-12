@@ -1,7 +1,6 @@
 #ifndef M_index_H
 #define M_index_H
 
-#include <iostream>
 #include <math.h>
 #include "data.h"
 
