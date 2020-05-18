@@ -3,7 +3,6 @@
 #include <string.h>
 #include <stdio.h>
 
-//#include "mindex.h"
 #include "imtmaker.h"
 
 using namespace std;
