@@ -21,7 +21,7 @@ void human::answer() {
     cout << "Age group: " << age_group_name_bm << endl;
     cout << "BMI: " << setprecision(4) << body_mass_index_bm << endl;
     cout << interprit_bm;
-    if (interprit_bm != Human_Results_Name[normal]) cout << setprecision(4) << delta_bm << " кг";
+    if (interprit_bm != Human_Results_Name[normal]) cout << setprecision(4) << delta_bm << " kg";
     cout << endl;
     RESET;
 }
