@@ -3,7 +3,6 @@
 using namespace std;
 
 
-
 //================================================================================
 //class human
 void human::set_age(int temp) {age_group_bm = temp;}
