@@ -37,7 +37,6 @@ int main(int argc, char *argv[]) {
 
     if (strncmp(argv[1], "man", 3) == 0) {//for men
         male_human _male_human;
-        _male_human.activate();
         _male_human.u_read_param->set_param(atoi(argv[2]), atoi(argv[4]), atof(argv[6]), atof(argv[8]));
         _make_result.create_result(&_male_human);
         _make_result.open_result();
@@ -45,7 +44,6 @@ int main(int argc, char *argv[]) {
 
     if (strncmp(argv[1], "wom", 3) == 0) {//the same for women
         female_human _female_human;
-        _female_human.activate();
         _female_human.u_read_param->set_param(atoi(argv[2]), atoi(argv[4]), atof(argv[6]), atof(argv[8]));
         _make_result.create_result(&_female_human);
         _make_result.open_result();
