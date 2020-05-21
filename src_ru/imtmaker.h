@@ -49,7 +49,7 @@ public:
     virtual void make_set_gender() = 0;
     virtual void make_set_interprit() = 0;
 
-    void activate();
+    human_maker();
     void make_new_human();
     human* get_human();
 };

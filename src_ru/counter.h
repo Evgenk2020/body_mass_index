@@ -13,7 +13,7 @@ private:
     float _weight, _height;
 
 public:
-    virtual void set_param(int year, int month, float weight, float height);
+    void set_param(int year, int month, float weight, float height);
     int get_year();
     int get_month();
     float get_weight();

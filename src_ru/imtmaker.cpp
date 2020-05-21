@@ -3,6 +3,7 @@
 using namespace std;
 
 
+
 //================================================================================
 //class human
 void human::set_age(int temp) {age_group_bm = temp;}
@@ -29,12 +30,12 @@ void human::answer() {
 
 //================================================================================
 //class human_maker
-void human_maker::make_new_human() {human_n = std::make_unique<human>();}
+void human_maker::make_new_human() {human_n = make_unique<human>();}
 human* human_maker::get_human() {return human_n.release();}
 
-void human_maker::activate() {
-    u_read_param = std::make_unique<read_param>();
-    u_counters = std::make_unique<counters>();
+human_maker::human_maker() {
+    u_read_param = make_unique<read_param>();
+    u_counters = make_unique<counters>();
 }
 //================================================================================
 
